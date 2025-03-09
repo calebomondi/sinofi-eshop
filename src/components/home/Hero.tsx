@@ -17,18 +17,11 @@ const Hero: React.FC = () => {
               <p className="mt-3 text-base text-gray-200 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                 Discover the latest high-end electronics from top brands. From smartphones to smart TVs, we bring you the best in technology.
               </p>
-              <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
+              <div className="mt-5 sm:mt-8 flex justify-start items-center">
                 <div className="rounded-md shadow">
                   <Link to="/products">
                     <Button className="w-full flex items-center justify-center px-8 py-6 text-base font-medium rounded-md text-white bg-sinofi-purple hover:bg-sinofi-purple/90 md:py-4 md:text-lg md:px-10">
                       Shop Now
-                    </Button>
-                  </Link>
-                </div>
-                <div className="mt-3 sm:mt-0 sm:ml-3">
-                  <Link to="/products?category=smartphones">
-                    <Button variant="outline" className="w-full flex items-center justify-center px-8 py-6 text-base font-medium rounded-md text-sinofi-purple bg-white hover:bg-gray-50 md:py-4 md:text-lg md:px-10">
-                      Featured Phones
                     </Button>
                   </Link>
                 </div>
@@ -40,7 +33,7 @@ const Hero: React.FC = () => {
       <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
         <img
           className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-          src="https://images.unsplash.com/photo-1595941069915-4ebc5197c14a?q=80&w=2070&auto=format&fit=crop"
+          src="https://img.freepik.com/premium-photo/realistic-8k-image-highquality-electronic-gadgets_960080-14018.jpg"
           alt="Electronics showcase"
         />
       </div>
