@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { ShoppingCart, Search, Menu, X } from 'lucide-react';
+import { ShoppingCart, Search, Menu, X, UserRound } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useCart } from '@/contexts/CartContext';
 import { categories } from '@/data/products';
@@ -52,6 +52,9 @@ const Navbar: React.FC = () => {
                   {getTotalItems()}
                 </span>
               )}
+            </Link>
+            <Link to="/profile" className="p-2 rounded-full hover:bg-gray-100 transition-colors">
+              <UserRound className="h-5 w-5 text-gray-600" />
             </Link>
             <Button
               className="md:hidden"
