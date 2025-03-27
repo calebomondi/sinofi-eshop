@@ -21,11 +21,8 @@ const Navbar: React.FC = () => {
             </Link>
           </div>
 
-          {/* Desktop Navigation */}
+          {/* Desktop Navigation 
           <div className="hidden md:flex space-x-8">
-            <Link to="/" className="text-gray-700 hover:text-sinofi-purple transition-colors">
-              Home
-            </Link>
             <Link to="/products" className="text-gray-700 hover:text-sinofi-purple transition-colors">
               All Products
             </Link>
@@ -39,6 +36,7 @@ const Navbar: React.FC = () => {
               </Link>
             ))}
           </div>
+          */}
 
           {/* Right side elements - search and cart */}
           <div className="flex items-center space-x-2">
